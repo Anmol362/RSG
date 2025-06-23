@@ -1,0 +1,154 @@
+/* .contact_page {
+    width: 100%;
+    position: relative;
+    height: 560px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://www.fittr.com/assets/background/overlay_1.svg'), url('/images/e2-brochure-golden-correction-c2c-x65.png');
+  }
+  
+  @media (max-width: 768px) {
+    .contact_page {
+      height: 650px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contact_page {
+      height: 100%;
+    }
+  }
+  
+  .inner_contact_page {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding: 80px 0px;
+    position: relative;
+  }
+  
+  @media (max-width: 768px) {
+    .inner_contact_page {
+      margin-top: 150px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .inner_contact_page {
+      margin: 0;
+    }
+  }
+  
+  .office-details {
+    bottom: 80px;
+    text-align: left;
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 0px;
+    width: calc(100% + 40px);
+    margin-left: -40px;
+    color: #fff;
+    padding-left: 24px;
+  }
+  
+  @media (max-width: 1600px) {
+    .office-details {
+      max-width: 1600px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .office-details {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .office-details {
+      margin-left: 0;
+      padding-left: 0;
+    }
+  }
+  
+  .office-details-heading {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.25;
+    color: #fff;
+    overflow: hidden;
+    display: inline-flex;
+  }
+  
+  .office-details-heading h2 {
+    text-align: left;
+    padding-left: 40px;
+    background-color: #fff;
+    -webkit-text-stroke-width: 5px;
+    font-size: 53px;
+  }
+  
+  @media (max-width: 768px) {
+    .office-details-heading h2 {
+      text-align: center;
+      font-size: 35px;
+      -webkit-text-stroke-width: 1.5px;
+      padding: 0;
+    }
+  }
+  
+  .contact-detail-list {
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 0px;
+    color: #fff;
+  }
+  
+  .contact-detail-list li {
+    color: #fff;
+    width: 25%;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-detail-list li {
+      flex-basis: 50%;
+      flex-grow: 0;
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contact-detail-list li {
+      flex-basis: 100%;
+      flex-grow: 0;
+      max-width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  
+  .contact-detail-list li h2 {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+  
+  .contact-detail-list li p {
+    margin: 0;
+    line-height: 1.57;
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+   */

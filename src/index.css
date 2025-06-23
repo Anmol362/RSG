@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --themeText:19, 17, 118;
+  --btn-text:48, 44, 30;
+}
+
+body {
+  margin: 0;
+  font-family: "Amulya-Variable", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+.flex-between {
+  @apply flex items-center justify-between;
+}
+.flex-between {
+  @apply flex items-center justify-around;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+
+
+.swiper .swiper-wrapper{
+  transition-timing-function : linear;
+}
+
+.swiper-slide {
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+}
+
+.slider_main .swiper-wrapper{
+ display: flex;
+ height: 100%;
+ align-items: center;
+}
+.slider_main .swiper-button-prev{
+  right: 100px !important;
+  top: 350px;
+  
+  left: unset;
+  transform: scale(0.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.7);
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-top: 60px;
+  background: #6E00FF1A;
+  color: rgb(var(--themeText));
+
+}
+
+.slider_main .swiper-button-next
+{
+  left: unset;
+  top: 350px;
+  right: 50px;
+  margin-top: 50px;
+  transform: scale(0.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.7);
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-top: 60px;
+  background: #6E00FF1A;
+  color: rgb(var(--themeText));
+  
+}
+.slider_main .swiper-button-next:hover,.slider_main .swiper-button-prev:hover{
+  background-color: rgba(var(--themeText), 1);
+  color: #fff;
+}

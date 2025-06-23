@@ -1,0 +1,20 @@
+
+
+.single_nav{
+    
+    animation: openNav .5s linear forwards;
+    animation-delay: calc(var(--i)*0.1s);
+    transform: translate(1000px);
+    opacity: 0;
+}
+.call_btn{
+    animation: openNav 1s linear forwards;   
+    transform: translate(1000px);
+    opacity: 0;
+}
+@keyframes openNav
+{    to{
+        transform: translate(0);
+        opacity: 1;
+    }
+}

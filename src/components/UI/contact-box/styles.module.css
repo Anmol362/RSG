@@ -1,0 +1,401 @@
+.main_contact_enquiry {
+    width: 100%;
+  }
+  .inner_main_contact_enquiry {
+    max-width: 100%; /* Adjust according to the value of $max-width */
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .inner_main_contact_enquiry.xxxxl {
+    max-width: 1600px;
+  }
+  .enquiry {
+    gap: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .enquiry.md {
+    display: block;
+  }
+
+
+  .enquiry_heading h3 {
+    font-weight: 800;
+    font-size: 32px;
+    color:  rgb(var(--themeText))/* Replace with the value of $light-text-color */;
+  }
+  .enquiry_heading p {
+    margin: 0;
+    line-height: 1.57;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 16px;
+    color:  rgb(var(--themeText))/* Replace with the value of $light-text-color */;
+  }
+  ._inputs_fields_ {
+    width: 100%;
+    margin-top: 10px;
+  }
+  ._inputs_fields_ input {
+    margin-top: 10px;
+  }
+  .enquiry_phone_number {
+    width: 100% !important;
+    text-align: left;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    display: block;
+    padding: 5px 0;
+    min-width: 100%;
+    position: relative;
+  }
+  .enquiry_phone_number_collection {
+    margin-top: 8px;
+  }
+  .phone_no_label {
+    color: rgb(var(--themeText)) /* Replace with the value of $theme-color */;
+  }
+  .phone_input input {
+    margin-top: 0;
+  }
+  .enquiry_submit_btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .map_location {
+    object-fit: cover;
+  }
+  .location {
+    width: 500px;
+    height: 450px;
+    margin-top: 50px;
+  }
+  .location.xl {
+    margin-top: 90px;
+    width: 450px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .location.md,
+  .location.xs {
+    width: 100%;
+    height: 450px;
+  }
+  
+  .enquiry_phone_number_collection {
+    border: 1px solid #000;
+    border-radius: 12px !important;
+  }
+  .enquiry_phone_number_collection button {
+    color:  rgb(var(--themeText))/* Replace with the value of $light-text-color */ !important;
+    width: 70px !important;
+    font-size: 14px;
+    padding: 14px 16px !important;
+    border: 0px !important;
+    padding-left: 15px !important;
+    border-radius: 12px !important;
+    margin-top: 0px !important;
+    width: 80px !important;
+    background-color: #fff;
+    text-align: left;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+  .enquiry_phone_number_collection button:hover {
+    background-color: #fff;
+  }
+  .phone_input {
+    padding: 0;
+  }
+  .phone_input input {
+    border: none !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    margin-top: 0 !important;
+  }
+  .phone_input span {
+    position: absolute;
+    bottom: -25px;
+    left: -80px;
+    margin-bottom: 4px;
+  }
+  .drop_search {
+    font-size: 14px !important;
+    padding-left: 16px;
+  }
+  .contact_us_message {
+    margin-top: 8px;
+  }
+  .contact_us_message label {
+    margin-top: 5px;
+  }
+  .btn-check:checked + .btn,
+  .btn.active,
+  .btn.show,
+  .btn:first-child:active,
+  :not(.btn-check) + .btn:active {
+    background-color: #fff !important;
+  }
+  
+  .login-page {
+    min-height: fit-content;
+    background: url('https://res.cloudinary.com/dsqu6pi0d/image/upload/v1698385913/prowfit-gym/Image-file/login_img_appv5j.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .login-page.xh {
+    height: 100%;
+  }
+  .login-page.sm {
+    padding-top: 0px;
+    background-position: center;
+  }
+  .login-page.xs {
+    align-items: normal !important;
+    height: 100%;
+  }
+  .signup_container {
+    position: relative;
+    height: 100%;
+    margin-bottom: 50px;
+    margin-top: 120px;
+  }
+  .inner_signup_page::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid var(--Glass1-Stroke-Carey, #afafaf);
+    background: var(--Glass1-Fill-Carey, linear-gradient(321deg, rgba(191, 191, 191, 0.06) 5.98%, rgba(0, 0, 0, 0) 66.28%), rgba(0, 0, 0, 0.14));
+    box-shadow: -8px 4px 5px 0px rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(26.5px);
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  .inner_signup_page {
+    position: relative;
+    left: 30%;
+    top: -10%;
+    padding: 20px 0 10px 0;
+    display: flex;
+    width: 380px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  .inner_signup_page.xxxxl {
+    left: 46%;
+    top: 0px;
+  }
+  .inner_signup_page.xl {
+    left: 0%;
+    position: relative;
+  }
+  .inner_signup_page.sm {
+    position: relative;
+    right: 0;
+    margin-bottom: 150px;
+  }
+  .inner_signup_page.xms {
+    width: 95%;
+    position: relative;
+  }
+  .login-form {
+    padding: 0 20px !important;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .heading_signup h1 {
+    font-size: 20px !important;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  .sign_in_button {
+    display: block;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .login-button {
+    background: linear-gradient(90.57deg, #6a1c98 9.91%, #ae0076 53.29%, #78006c 91.56%);
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 8px 22px;
+    min-width: 62px;
+    border-radius: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+    height: 48px;
+    font-weight: 600;
+  }
+  .sign_in_with_options {
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+  }
+  .sign_in_heading {
+    width: 95%;
+    text-align: center;
+    position: relative;
+    font-size: 13px;
+  }
+  .sign_in_heading span::before,
+  .sign_in_heading span::after {
+    position: absolute;
+    content: '';
+    width: 33%;
+    top: 50%;
+    border-top: 2px solid #ebebeb;
+  }
+  .sign_in_heading span::before {
+    left: 0;
+  }
+  .sign_in_heading span::after {
+    right: 0% !important;
+  }
+  .sign_in_heading span {
+    width: 20%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 12px;
+  }
+  .sign_in_with_img {
+    margin-bottom: 15px;
+  }
+  .sign_in_with_img button {
+    margin: 5px;
+    padding: 5px;
+    background: transparent;
+  }
+  .input-field {
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    padding: 5px 0px;
+    position: relative;
+    background-color: transparent;
+  }
+  .password_input_div .input-field input {
+    padding-right: 40px;
+  }
+  .input-field:focus-within:before {
+    top: 0px;
+    text-align: center;
+    font-size: 13px;
+    padding: 5px 3px;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  .input-field label {
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    font-size: 12px;
+    color:  rgb(var(--themeText))/* Replace with the value of $theme-color */;
+  }
+  .input-field input {
+    width: 100%;
+  padding: 5px 0px;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  color: #f8f8f8ef;
+  font-size: 14px;
+  margin-top: 5px;
+  background-color: transparent;
+}
+
+.input-field input::placeholder {
+  font-weight: 590;
+  color: #ccc;
+  font-size: 16px;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.forgot-password {
+  border-radius: 3px;
+  width: 100%;
+}
+
+.forgot-password a {
+  width: 100%;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.forgot-password button {
+  background-color: transparent;
+  width: 100%;
+  text-align: right;
+  font-weight: 600 !important;
+  letter-spacing: 0.7px;
+  color: #ddd;
+  text-align: center;
+}
+
+.options_new {
+  font-size: 14px;
+  font-weight: 560;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.options_new a {
+  font-weight: 600;
+  line-height: 1.57143;
+  color: #ccc;
+  margin-left: 5px;
+}
+
+.remember_me_check {
+  display: flex;
+  align-items: center;
+}
+
+.remember_me_check .remember_check {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+}
+
+.remember_me_check .remember_check:checked {
+  accent-color: rgb(var(--themeText))/* Replace with the value of $theme-color */;
+}
+
+.remember_me_check p {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.login_bottom li a {
+  color: #ccc;
+  text-decoration: underline !important;
+}

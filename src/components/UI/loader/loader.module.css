@@ -1,0 +1,19 @@
+.loader_conatiner{
+  height: 100vh;  
+  animation: showSplash 2s ease forwards;
+  left: 0;
+  display: flex;
+  z-index: 101;
+}
+
+@keyframes showSplash{
+    0%{
+        display: flex;
+        
+    }
+    100%{
+        left:flex;
+        
+    }
+}
+
