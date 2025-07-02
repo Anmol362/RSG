@@ -26,7 +26,7 @@ const RealEstateBrokerage = () => {
   });
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 py-[50px] max-w-[1920px] w-full">
+    <div className="sm:min-h-screen h-full flex items-center justify-center sm:p-4 sm:py-[50px] max-w-[1920px] w-full">
       <div className="rounded-lg overflow-hidden w-full md:flex">
         <div
           ref={leftSectionRef}
@@ -79,7 +79,7 @@ const RealEstateBrokerage = () => {
         </div>
         <div
           ref={rightSectionRef}
-          className={`md:w-1/2 flex items-center justify-center transition-opacity duration-1000 min-h-[500px]  ${
+          className={`md:w-1/2 items-center justify-center transition-opacity sm:flex hidden duration-1000 min-h-[500px]  ${
             rightSectionInView ? "opacity-100" : "opacity-0"
           }`}
         >

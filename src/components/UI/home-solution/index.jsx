@@ -12,9 +12,9 @@ export const HomeSolutions = () => {
   return (
     <section className='flex flex-wrap flex-col md:flex-row items-cente justify-center w-full max-w-[1920px] min-h-[500px] lg:mx-auto lg:p-6 py-[100px]'>
       {/* Left Side */}
-      <div className='flex-center flex-col gap-[15px] w-[95%] relative' data-aos='fade-up'>
+      <div className='flex-center flex-col gap-[15px] w-full px-6 relative' data-aos='fade-up'>
         {/* <h3 className='text-themeText uppercase font-semibold'>Solutions</h3> */}
-        <h1 className='text-5xl font-bold text-center leading-[60px] capitalize'>
+        <h1 className='sm:text-5xl text-3xl font-bold text-center sm:leading-[60px] capitalize'>
         We will help you in finding the property that meets <span className='text-themeText capitalize'> your checklist.</span>
         </h1>
         <p className='mt-4 text-gray-700'>

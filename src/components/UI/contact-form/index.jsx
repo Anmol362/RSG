@@ -34,9 +34,9 @@ const ContactForm = () => {
     }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen  bg-white w-full">
-      <div className="w-[96%] h-full flex shadow-md border rounded-lg flex-col lg:flex-row max-w-[1920px]">
-        <div className="lg:w-1/2 w-full flex justify-center items-center mb-8 lg:mb-0"  data-aos="fade-left">
+    <div className="flex flex-col lg:flex-row items-center justify-center min-h-full sm:min-h-screen  bg-white w-full pb-8">
+      <div className="w-[96%] h-full flex shadow-md lg:mt-0 mt-32 border rounded-lg flex-col lg:flex-row max-w-[1920px]">
+        <div className="lg:w-1/2 w-full hidden justify-center items-center mb-8 lg:mb-0 sm:flex"  data-aos="fade-left">
           <img src="/images/contact.svg" alt="Contact Us" className="w-1/2" />
         </div>
         <form

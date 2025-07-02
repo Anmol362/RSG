@@ -60,7 +60,7 @@ const OurPartners = () => {
             data-aos="fade-left"
           >
             <img
-              src="https://res.cloudinary.com/dbaoxqzl6/image/upload/v1750168196/e2-brochure-golden-correction-c2c-x6111_twdxjb.jpg"
+              src="https://res.cloudinary.com/dbaoxqzl6/image/upload/v1750168991/empressia_u4mjbe.jpg"
               className="w-full rounded-lg"
             />
           </div>

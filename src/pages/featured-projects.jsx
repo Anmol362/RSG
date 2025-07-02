@@ -18,7 +18,7 @@ const FeatureProjects = () => {
         <h2 className="text-themeText uppercase font-semibold">
           YOUR NEXT INVESTMENT
         </h2>
-        <h1 className="text-[45px] font-bold max-w-[550px] w-full">
+        <h1 className="sm:text-4xl text-3xl font-bold max-w-[550px] w-full">
           <span className="text-themeText">Featured Projects </span>{" "}
         </h1>
       </div>

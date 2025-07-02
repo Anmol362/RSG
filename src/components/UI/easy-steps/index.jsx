@@ -10,7 +10,7 @@ const EasySteps = () => {
     <section className="py-12 bg-white">
       <div className="container mx-auto text-center">
         <h2 className="text-gray-600 uppercase tracking-widest mb-2 font-semibold text-themeText"  data-aos='fade-up'>3 steps towards the perfect match.</h2>
-        <h1 className="text-4xl font-bold mb-12" data-aos='fade-up'> Finding the right property is this <span className='text-themeText uppercase'>Easy.</span></h1>
+        <h1 className="sm:text-4xl text-3xl font-bold mb-12" data-aos='fade-up'> Finding the right property is this <span className='text-themeText uppercase'>Easy.</span></h1>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-2">
           <div className="flex flex-col items-center"  data-aos='fade-right'>

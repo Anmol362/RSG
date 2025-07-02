@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
   --themeText:19, 17, 118;
   --btn-text:48, 44, 30;
@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  font-family: "Amulya-Variable", sans-serif;
+   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

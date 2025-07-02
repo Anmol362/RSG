@@ -4,7 +4,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <section className="w-full max-w-[1920px] min-h-[700px] h-auto relative bg-[#6E00FF]/10 overflow-hidden ">
+      <section className="w-full max-w-[1920px] min-h-[700px] h-auto relative bg-[#efefef] overflow-hidden ">
       {/* <span className="bg-red-400 w-[60px] h-[60px] hidden md:flex rounded-full absolute overflow-hidden top-[350px] left-[50px] border border-themeText  ">
         <img src="/images/hero_home.png" alt="" className="w-full h-full object-cover"/>
       </span> */}
